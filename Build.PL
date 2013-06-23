@@ -14,7 +14,7 @@ my $builder = Module::Build->new(
         'perl' => '5.6.2',
         'parent' => 0,
         'Carp' => 0,
-        'Log::Dispatch::Config' => 0,
+        'Log::Dispatch::Configurator' => 0,
     },
     add_to_cleanup      => [ 'Log-Dispatch-Configurator-Perl-*' ],
     meta_merge     => {
